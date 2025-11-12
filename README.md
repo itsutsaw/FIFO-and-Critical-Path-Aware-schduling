@@ -7,7 +7,7 @@
 ---
 
 
-#**🚀 How to Run**
+#How to Run
 ### Build the Simulator
 cd simplesim-3.0
 make clean
