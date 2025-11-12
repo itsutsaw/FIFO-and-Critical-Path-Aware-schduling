@@ -7,14 +7,14 @@
 ---
 
 
-###**🚀 How to Run**
-# Build the Simulator
+#**🚀 How to Run**
+### Build the Simulator
 cd simplesim-3.0
 make clean
 make sim-outorder
-# Run a Benchmark
+### Run a Benchmark
 ./sim-outorder tests/bin.little/test-math > output.txt 2>&1
-# Extract Key Metrics
+### Extract Key Metrics
 grep -E "sim_cycle|sim_IPC|ruu_latency" output.txt
 
 
